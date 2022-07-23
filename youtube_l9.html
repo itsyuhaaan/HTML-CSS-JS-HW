@@ -1,0 +1,300 @@
+<!-- Lesson 9 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone2</title>
+    <style>
+      .thumbnail{
+        width:300px;
+        
+      }
+
+      .thumbnail2{
+        width:300px;
+        
+      }
+
+      .search-bar{
+        font-size:20px;
+        margin-left: 12px;
+        display:block;
+      }
+
+      .video-title{
+        width: 300px;
+      }
+
+      .video-preview{
+        width:300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .nine-a-redsquare{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+      }
+
+      .nine-b-greencircle{
+        background-color: green;
+        border-radius: 100px;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+      }
+
+      .nine-c{
+        border-width: 1px;
+        border-style: solid;
+        border-color: rbg(150,150,150);
+        display: inline-block;
+        width: 270px;
+        height:90px;
+        padding-left: 15px;
+      }
+
+      .nine-d{
+        font-family: Arial;
+        font-size: 25px;
+        border:1px;
+        background-color: rgb(33,33,33);
+        width:360px;
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+
+      }
+      .nine-d-title{
+        color:white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    
+      }
+      .nine-d-content{
+        color:rgb(160, 160, 160);
+        font-size: 16px;
+      }
+
+      .nine-e{
+        border-style: none;
+        border-radius: 4px;
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+      }
+      .cat{
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        object-position: center;
+        border-radius: 25px;
+        vertical-align: middle;
+      }
+      .textbox{
+        width:300px;
+        border: none;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+      .cat-button{
+        background-color: rgb(2, 158, 255);
+        color:white;
+        border: none;
+        height: 36px;
+        width: 70px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        vertical-align:middle;
+        font-weight: bold;
+      }
+
+      .nine-f{
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+        margin-right: 15px;
+      }
+      .nine-f-cat{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .nine-f-name{
+        font-family: Arial;
+        font-weight: bold;
+      }
+      .nine-f-subtitle{
+        color:rgb(160, 160, 160);
+
+      }
+      .nine-f-button{
+        background-color:pink;
+        color:white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 4px;
+      }
+
+      .googlepic{
+        width: 300px;
+        margin-left: 300px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .eight-c{
+        width:500px;
+        font-size: 16px;
+        margin-left: 200px;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .nine-h-button-a{
+        border:none;
+        background-color: rbg(245,245,245);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        margin-left: 320px;
+      }
+      .nine-h-button-a:hover{
+        cursor: pointer;
+      }
+
+      .nine-h-button-b{
+        border:none;
+        background-color: rbg(160,160,160);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+      }
+      .nine-h-button-b:hover{
+        cursor: pointer;
+      }
+
+
+      </style>
+    </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Search">
+
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+
+
+      <p class="video-title">Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!</p>
+      <p class="video-author">Marques Brownlee</p>
+      <p class="video-stats">3.4M views &#183 6 months ago</p>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail2" src="thumbnails/thumbnail-2.webp">
+
+
+      <p class="video-title"><strong>Try Not To Laugh Challenge #9 </strong></p>
+      <p class="video-author">Markipiler</p>
+      <p class="video-stats">19M views &#183 4 years ago</p>
+    </div>
+    <!-- HW 9a.9b.-->
+    <div class="nine-a-redsquare"></div>
+    <div class="nine-b-greencircle"></div>
+    <!-- 9c. -->
+    <div class="nine-c">
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+    <!-- 9d. -->
+    <div class="nine-d">
+      <p class="nine-d-title">Install YouTube Music</p>
+      <p class="nine-d-content">Add YouTube Music to your desktop for quick and easy access</p>
+    </div>
+
+    <!-- 9e. -->
+    <div class="nine-e">
+      <img class="cat" src="cat.jpeg">
+      <input type="text" class="textbox" placeholder="What's happening?">
+      <button class="cat-button">Tweet</button>
+    </div>
+
+    <!-- 9f. -->
+    <div class="nine-f">
+      <img class="nine-f-cat" src="cat.jpeg">
+      <p class="nine-f-name">Oliver</p>
+      <p class="nine-f-subtitle">2 mutual friends</p>
+      <button class="nine-f-button">Add Friend</button>
+
+    </div>
+
+    <!-- 9g. -->
+    <p></p>
+    <div class="nine-f">
+      <img class="nine-f-cat" src="cat.jpeg">
+      <p class="nine-f-name">Oliver</p>
+      <p class="nine-f-subtitle">2 mutual friends</p>
+      <button class="nine-f-button">Add Friend</button>
+    </div>
+
+    <div class="nine-f">
+      <img class="nine-f-cat" src="cat2.jpeg">
+      <p class="nine-f-name">Mimi</p>
+      <p class="nine-f-subtitle">3 mutual friends</p>
+      <button class="nine-f-button">Add Friend</button>
+    </div>
+
+    <div class="nine-f">
+      <img class="nine-f-cat" src="dog.jpeg">
+      <p class="nine-f-name">Rex</p>
+      <p class="nine-f-subtitle">4 mutual friends</p>
+      <button class="nine-f-button">Add Friend</button>
+    </div>
+
+    <!-- 9h. -->
+    <p></p>
+    <div>
+      <img class="googlepic" src="googlelogo.png">
+    </div>
+    
+    <div>
+      <input class="eight-c" type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <div>
+      <button class="nine-h-button-a">Google Search</button>
+      <button class="nine-h-button-b">I'm Feeling Lucky</button>
+    </div>
+    
+    
+
+
+    
+  </body>
+</html>
