@@ -1,0 +1,214 @@
+<!-- Lesson 10 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone2</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      p{
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .thumbnail{
+        width:300px;
+        
+      }
+
+      .thumbnail2{
+        width:300px;
+        
+      }
+
+      .search-bar{
+        font-size:20px;
+        margin-left: 12px;
+        display:block;
+      }
+
+      .video-title{
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 500; 
+        line-height: 20px;
+        margin-bottom: 12px;
+      }
+
+      .video-preview{
+        width:300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .channel-picture{
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+      }
+
+      .video-info{
+        display: inline-block;
+        width: 200px;
+        
+      }
+    
+      .profile-picture{
+        width: 40px;
+        border-radius: 50px;
+      }
+
+      .thumbnail-row{
+        margin-bottom: 12px;
+      }
+
+      .video-author,
+      .video-stats{
+        font-size: 12px;
+        color:rgb(96,96,96);
+      }
+
+      .video-author{
+        margin-bottom: 4px;
+      }
+
+      .nine-f{
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+        margin-right: 15px;
+      }
+      .nine-f-cat{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .nine-f-name{
+        font-family: Arial;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .ten-e-dog{
+        width:30px;
+        display: inline-block;
+      }
+      .dog-two{
+        width:30px;
+        height:30px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+        vertical-align: top;
+      }
+      .ten-e-dog-text{
+        width: 150px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+      }
+      .nine-f-subtitle{
+        color:rgb(160, 160, 160);
+      }
+      .nine-f-button{
+        background-color:pink;
+        color:white;
+        font-size: 15px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 4px;
+        margin-top: 10px;
+      }
+
+    
+
+    </style>
+    </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!</p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183 6 months ago</p>
+        </div>
+      </div>      
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail2" src="thumbnails/thumbnail-2.webp">
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title"><strong>Try Not To Laugh Challenge #9 </strong></p>
+          <p class="video-author">Markipiler</p>
+          <p class="video-stats">19M views &#183 4 years ago</p>
+        </div>
+      </div>      
+    </div>
+
+
+
+      
+<!-- 10e(9g) -->
+<!-- 9g. -->
+<p></p>
+<div class="nine-f">
+  <div>
+    <img class="nine-f-cat" src="cat.jpeg">
+  </div>
+  <div>
+    <p class="nine-f-name">Oliver</p>
+  </div>
+
+  <div>
+    <div class="ten-e-dog">
+      <img class="dog-two"src="dog2.jpeg">
+    </div>
+    <div class="ten-e-dog-text">
+      <p class="nine-f-subtitle">2 mutual friends</p>
+    </div>
+  </div>
+  <div>
+    <button class="nine-f-button">Add Friend</button>
+  </div>
+</div>
+
+<div class="nine-f">
+  <img class="nine-f-cat" src="cat2.jpeg">
+  <p class="nine-f-name">Mimi</p>
+  <p class="nine-f-subtitle">3 mutual friends</p>
+  <button class="nine-f-button">Add Friend</button>
+</div>
+
+<div class="nine-f">
+  <img class="nine-f-cat" src="dog.jpeg">
+  <p class="nine-f-name">Rex</p>
+  <p class="nine-f-subtitle">4 mutual friends</p>
+  <button class="nine-f-button">Add Friend</button>
+</div>
+
