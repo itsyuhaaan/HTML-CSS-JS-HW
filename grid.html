@@ -66,6 +66,61 @@
         column-gap: 16px;
         row-gap: 40px;
       }
+
+      .video-grid-grid{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        column-gap: 10px;
+      }
+      .nine-f{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+        margin-right: 15px;
+      }
+      .nine-f-cat{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .nine-f-name{
+        font-family: Arial;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .ten-e-dog{
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        column-gap: 4px;
+        align-items: center;
+      }
+      .dog-two{
+        width:30px;
+        height:30px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+      }
+  
+      .nine-f-subtitle{
+        color:rgb(160, 160, 160);
+      }
+      .nine-f-button{
+        background-color:pink;
+        color:white;
+        font-size: 15px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 4px;
+        margin-top: 10px;
+      }
+
     </style>
   </head>
   <body styles="padding-bottom: 1000px;">
@@ -78,6 +133,7 @@
       <div style="background-color:
       lightpink">div2<p>text</p></div>
     </div>
+
 
     <div style="
       margin-top: 30px;
@@ -93,6 +149,7 @@
       <div style="background-color:
       lightpink">100px</div>
     </div>
+
 
     <div style="
       margin-top: 30px;
@@ -183,6 +240,7 @@
     <input class="search-bar" type="text" placeholder="Search">
 
     <div class="video-grid">
+
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
@@ -282,6 +340,41 @@
           </div>
         </div>      
       </div>
+
+    </div>
+
+        <!-- HW 11 d-->
+    <p></p>
+    <div class="video-grid-grid">   
+
+      <div class="nine-f">
+          <img class="nine-f-cat" src="cat.jpeg">
+          <p class="nine-f-name">Oliver</p>
+   
+          <div class="ten-e-dog">
+            <img class="dog-two"src="dog2.jpeg">
+            <p class="nine-f-subtitle">2 mutual friends</p>
+          </div>
+          <button class="nine-f-button">Add Friend</button>
+      </div>
+
+      <div class="nine-f">
+        <img class="nine-f-cat" src="cat2.jpeg">
+        <p class="nine-f-name">Mimi</p>
+        <p class="nine-f-subtitle">3 mutual friends</p>
+        <button class="nine-f-button">Add Friend</button>
+      </div>
+
+      <div class="nine-f">
+        <img class="nine-f-cat" src="dog.jpeg">
+        <p class="nine-f-name">Rex</p>
+        <div class="ten-e-dog">
+          <img class="dog-two"src="dog2.jpeg">
+          <p class="nine-f-subtitle">4 mutual friends</p>
+        </div>
+        <button class="nine-f-button">Add Friend</button>
+      </div>
+
 
     </div>
 
