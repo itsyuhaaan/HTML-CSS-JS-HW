@@ -1,0 +1,320 @@
+<!-- Lesson 12 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"href="styles/general.css">
+    <link rel="stylesheet"href="styles/header.css">
+    <link rel="stylesheet"href="styles/video.css">
+    <link rel="stylesheet"href="styles/hw.css">
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="
+    display: flex;
+    flex-direction: row">
+    <div style="background-color:lightblue;">div 1 text</div>
+    <div style="background-color:lightpink">div 2<p>text</p></div>
+
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row"
+      >
+      <div style="background-color:lightblue;width:100px;">100px</div>
+      <div style="background-color:lightpink;
+                  flex: 1">flex: 1</div>
+
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row"
+      >
+      <div style="background-color:lightblue;width:100px;">100px</div>
+      <div style="background-color:lightpink;
+                  flex: 1">flex: 1</div>
+      <div style="background-color:lightblue;flex: 2">flex: 2</div>
+
+  </div>
+
+  <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: end"
+      >
+      <div style="background-color:lightblue;width:100px;">100px</div>
+      <div style="background-color:lightpink;width:100px">100px</div>
+      <div style="background-color:lightblue;width:100px">100px</div>
+
+  </div>
+
+
+  <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between"
+      >
+      <div style="background-color:lightblue;width:100px;">100px</div>
+      <div style="background-color:lightpink;width:100px">100px</div>
+      <div style="background-color:lightblue;width:100px">100px</div>
+
+  </div>
+
+
+  <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; 
+      ">
+      <div style="background-color:lavender;width:100px;">100px</div>
+      <div style="background-color:lightpink;width:100px">100px</div>
+      <div style="background-color:lightblue;width:100px">100px</div>
+
+  </div>
+<!-- HW -->
+<!-- 12a-d -->
+
+<div style="
+  display: flex;
+  flex-direction: row">
+    <div style="background-color:lightblue;width: 200px;">200px</div>
+    <div style="background-color:lightpink;width: 75px;">75px</div>
+</div>
+
+
+<div style="
+  display: flex;
+  flex-direction: row">
+  <div style="background-color:lightblue;width:50px;">item1</div>
+  <div style="background-color:lightpink;flex:1;">item2</div>
+  <div style="background-color:lightblue;width:75px;">item3</div>
+</div>
+
+
+<div style="
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;">
+  <div style="background-color: lightpink;">item1</div>
+  <div style="background-color: lightpink;">item2</div>
+  <div style="background-color: lightpink;">item3</div>
+  <div style="background-color: lightpink;">item4</div>
+</div>
+
+<div style="
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-color: blue;">
+  <div style="background-color: lightpink;">item1</div>
+  <div style="background-color: lightpink;">item2</div>
+
+</div>
+<!-- 12e *****-->
+<div class="container">
+
+  <div class="flexbox">
+    <div>Home</div>
+    <div class="notification">14</div>
+  </div>
+
+  <div class="flexbox">
+    <div>Notifications</div>
+    <div class="notification">3</div>
+  </div>
+
+  <div class="flexbox">
+    <div>Messages</div>
+    <div class="notification">5</div>
+  </div>
+
+</div>
+  
+<!-- 12f -->
+<div class="design">
+  <div class="home">Home</div>
+  <input class="search" placeholder="Search">
+  <button class="button">download</button>
+
+</div>
+
+<!-- 12g -->
+<div class="row">
+  <img class="profile-picture" src="cat.jpeg">
+  <div class="info">
+    <p class="name">oliver</p>
+    <p class="handle">the cat</p>
+    <p class="catagory">Popular</p>
+  </div>
+  <button class="follow-button">Follow</button>
+
+</div>
+
+<div class="row">
+  <img class="profile-picture" src="cat2.jpeg">
+  <div class="info">
+    <p class="name">Mimi</p>
+    <p class="handle">Sleepy Cat</p>
+    <p class="catagory">Popular</p>
+  </div>
+  <button class="follow-button">Follow</button>
+
+</div>
+
+<div class="row">
+  <img class="profile-picture" src="dog2.jpeg">
+  <div class="info">
+    <p class="name">Rex</p>
+    <p class="handle">Happy Bulldog</p>
+    <p class="catagory">Popular</p>
+  </div>
+  <button class="follow-button">Follow</button>
+</div>
+
+
+
+
+  <div class="header">
+    <div class="left-section">left-section</div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search"></div>
+    <div class="right-section">right-section</div>
+    
+  </div>
+
+  <div class="video-grid">
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!</p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183 6 months ago</p>
+        </div>
+      </div>      
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title"><strong>Try Not To Laugh Challenge #9 </strong></p>
+          <p class="video-author">Markipiler</p>
+          <p class="video-stats">19M views &#183 4 years ago</p>
+        </div>
+      </div>      
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+          <p class="video-author">SSSniperWolf</p>
+          <p class="video-stats">12M views &#183 1 year ago</p>
+        </div>
+      </div>      
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title"><strong>
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture</strong></p>
+          <p class="video-author">Veritasium</p>
+          <p class="video-stats">18M views &#183 4 months ago</p>
+        </div>
+      </div>      
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+          <p class="video-author">CS Dojo</p>
+          <p class="video-stats">519k views &#183 5 years ago</p>
+        </div>
+      </div>      
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+        </div>
+        <div class="video-info">
+          <p class="video-title"><strong>Anything You Can Fit In The Circle I'll Pay For</strong></p>
+          <p class="video-author">MrBeast</p>
+          <p class="video-stats">141M views &#183 1 years ago</p>
+        </div>
+      </div>      
+    </div>
+
+  </div>
+
+
+
+
+  </body>
+</html>
+
